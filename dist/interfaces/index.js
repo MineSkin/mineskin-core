@@ -17,4 +17,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./IAuditLogger"), exports);
 __exportStar(require("./ILogProvider"), exports);
 __exportStar(require("./IFlagProvider"), exports);
+__exportStar(require("./IRedisProvider"), exports);
 //# sourceMappingURL=index.js.map
