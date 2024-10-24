@@ -1,0 +1,1 @@
+{"version":3,"file":"IFlagProvider.js","sourceRoot":"/","sources":["interfaces/IFlagProvider.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFlagProvider {\r\n    isEnabled(key: string): Promise<boolean>;\r\n\r\n    getValue(key: string): Promise<any>;\r\n}\r\n"]}

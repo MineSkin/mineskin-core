@@ -1,0 +1,1 @@
+{"version":3,"file":"ILogProvider.js","sourceRoot":"/","sources":["interfaces/ILogProvider.ts"],"names":[],"mappings":"","sourcesContent":["import winston from \"winston\";\n\nexport interface ILogProvider {\n    l: winston.Logger;\n}\n"]}
