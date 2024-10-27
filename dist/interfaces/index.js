@@ -18,4 +18,5 @@ __exportStar(require("./IAuditLogger"), exports);
 __exportStar(require("./ILogProvider"), exports);
 __exportStar(require("./IFlagProvider"), exports);
 __exportStar(require("./IRedisProvider"), exports);
+__exportStar(require("./ICredentialService"), exports);
 //# sourceMappingURL=index.js.map
