@@ -19,4 +19,5 @@ __exportStar(require("./ILogProvider"), exports);
 __exportStar(require("./IFlagProvider"), exports);
 __exportStar(require("./IRedisProvider"), exports);
 __exportStar(require("./ICredentialService"), exports);
+__exportStar(require("./IRequestExecutor"), exports);
 //# sourceMappingURL=index.js.map
