@@ -3,5 +3,6 @@ declare const TYPES: {
     LogProvider: symbol;
     AuditLogger: symbol;
     RedisProvider: symbol;
+    MetricsProvider: symbol;
 };
 export { TYPES };

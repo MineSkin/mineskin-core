@@ -1,0 +1,1 @@
+{"version":3,"file":"IMetricsProvider.js","sourceRoot":"/","sources":["interfaces/IMetricsProvider.ts"],"names":[],"mappings":"","sourcesContent":["import { Metric, Metrics } from \"metrics-node\";\n\nexport interface IMetricsProvider {\n\n    getMetrics(): Promise<Metrics>;\n\n    getMetric(key: string): Promise<Metric>;\n\n}\n"]}

@@ -6,6 +6,7 @@ const TYPES = {
     LogProvider: Symbol.for("LogProvider"),
     AuditLogger: Symbol.for("AuditLogger"),
     RedisProvider: Symbol.for("RedisProvider"),
+    MetricsProvider: Symbol.for("MetricsProvider"),
 };
 exports.TYPES = TYPES;
 //# sourceMappingURL=ditypes.js.map
