@@ -2,8 +2,8 @@ import { Metric, Metrics } from "metrics-node";
 
 export interface IMetricsProvider {
 
-    getMetrics(): Promise<Metrics>;
+    getMetrics(): Metrics;
 
-    getMetric(key: string): Promise<Metric>;
+    getMetric(key: string): Metric;
 
 }
