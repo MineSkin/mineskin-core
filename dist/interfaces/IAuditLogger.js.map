@@ -1,1 +1,0 @@
-{"version":3,"file":"IAuditLogger.js","sourceRoot":"/","sources":["interfaces/IAuditLogger.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAuditLogger {\r\n    log(tag: string, message: string, data?: any): void;\r\n\r\n    warn(tag: string, message: string, data?: any): void;\r\n\r\n    error(tag: string, message: string, data?: any): void;\r\n}\r\n"]}

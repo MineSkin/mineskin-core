@@ -1,1 +1,0 @@
-{"version":3,"file":"IRequestExecutor.js","sourceRoot":"/","sources":["interfaces/IRequestExecutor.ts"],"names":[],"mappings":"","sourcesContent":["import { AxiosRequestConfig, AxiosResponse } from \"axios\";\n\nexport interface IRequestExecutor {\n    dynamicRequest<K extends string | any>(key: K, request: AxiosRequestConfig, breadcrumb?: string): Promise<AxiosResponse>;\n}\n"]}
