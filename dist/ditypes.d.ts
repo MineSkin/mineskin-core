@@ -4,5 +4,6 @@ declare const TYPES: {
     AuditLogger: symbol;
     RedisProvider: symbol;
     MetricsProvider: symbol;
+    RequestExecutor: symbol;
 };
 export { TYPES };

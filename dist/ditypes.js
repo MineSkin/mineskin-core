@@ -7,6 +7,7 @@ const TYPES = {
     AuditLogger: Symbol.for("AuditLogger"),
     RedisProvider: Symbol.for("RedisProvider"),
     MetricsProvider: Symbol.for("MetricsProvider"),
+    RequestExecutor: Symbol.for("RequestExecutor"),
 };
 exports.TYPES = TYPES;
 //# sourceMappingURL=ditypes.js.map
