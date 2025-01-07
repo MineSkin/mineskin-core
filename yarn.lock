@@ -3869,15 +3869,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metrics-node@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "metrics-node@npm:1.1.1"
+"metrics-node@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "metrics-node@npm:1.2.0"
   dependencies:
     "@types/node": "npm:^14.14.12"
     influx: "npm:^5.6.3"
-    ts-node: "npm:^9.1.1"
     typescript: "npm:^4.1.2"
-  checksum: 10c0/3184702634c7d201ebfab180b0e50c5b5b45d5098996cbb6c1de8cec06e4a400634e0fe3354530a46d9af5de88a17556ed210088bd5a414aba5536c545fbfc7b
+  checksum: 10c0/e25e1bbc4c9602e5b96a86e11e48569a30c20b344b9cc5039d856d23d6069f4ce744071cc5bc45c2fa2b1f7cec6bcfbf27d77d6297c7fcc6c9febd0473783f2c
   languageName: node
   linkType: hard
 
@@ -3929,7 +3928,7 @@ __metadata:
     flagsmith-nodejs: "npm:^3.3.3"
     inversify: "npm:^6.0.3"
     jest: "npm:^29.7.0"
-    metrics-node: "npm:^1.1.1"
+    metrics-node: "npm:^1.2.0"
     nodemon: "npm:^3.1.7"
     redis: "npm:^4.7.0"
     reflect-metadata: "npm:^0.2.2"
@@ -4916,16 +4915,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:^0.5.17":
-  version: 0.5.21
-  resolution: "source-map-support@npm:0.5.21"
-  dependencies:
-    buffer-from: "npm:^1.0.0"
-    source-map: "npm:^0.6.0"
-  checksum: 10c0/9ee09942f415e0f721d6daad3917ec1516af746a8120bba7bb56278707a37f1eb8642bde456e98454b8a885023af81a16e646869975f06afc1a711fb90484e7d
-  languageName: node
-  linkType: hard
-
 "source-map@npm:^0.6.0, source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
@@ -5245,27 +5234,6 @@ __metadata:
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
   checksum: 10c0/5f29938489f96982a25ba650b64218e83a3357d76f7bede80195c65ab44ad279c8357264639b7abdd5d7e75fc269a83daa0e9c62fd8637a3def67254ecc9ddc2
-  languageName: node
-  linkType: hard
-
-"ts-node@npm:^9.1.1":
-  version: 9.1.1
-  resolution: "ts-node@npm:9.1.1"
-  dependencies:
-    arg: "npm:^4.1.0"
-    create-require: "npm:^1.1.0"
-    diff: "npm:^4.0.1"
-    make-error: "npm:^1.1.1"
-    source-map-support: "npm:^0.5.17"
-    yn: "npm:3.1.1"
-  peerDependencies:
-    typescript: ">=2.7"
-  bin:
-    ts-node: dist/bin.js
-    ts-node-script: dist/bin-script.js
-    ts-node-transpile-only: dist/bin-transpile.js
-    ts-script: dist/bin-script-deprecated.js
-  checksum: 10c0/e0f904090aba4b3496fdfca640cfd92c1f5a41fa303b0ccb40f49be160699687a97a4dd5f57200646a3b83528952611d1c5ad5804ee25f338b017e7b1c13f0f4
   languageName: node
   linkType: hard
 
