@@ -3869,14 +3869,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"metrics-node@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "metrics-node@npm:1.2.0"
+"metrics-node@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "metrics-node@npm:1.2.1"
   dependencies:
     "@types/node": "npm:^14.14.12"
     influx: "npm:^5.6.3"
     typescript: "npm:^4.1.2"
-  checksum: 10c0/e25e1bbc4c9602e5b96a86e11e48569a30c20b344b9cc5039d856d23d6069f4ce744071cc5bc45c2fa2b1f7cec6bcfbf27d77d6297c7fcc6c9febd0473783f2c
+  checksum: 10c0/571660e3226b99a27d4111b590546de95bc4675c3ed431e820f6198b549aa14b74e59dd9fd44a8a3a81319e6add584efac2a981a64bc43c931ea2cf1f19c3577
   languageName: node
   linkType: hard
 
@@ -3928,7 +3928,7 @@ __metadata:
     flagsmith-nodejs: "npm:^3.3.3"
     inversify: "npm:^6.0.3"
     jest: "npm:^29.7.0"
-    metrics-node: "npm:^1.2.0"
+    metrics-node: "npm:^1.2.1"
     nodemon: "npm:^3.1.7"
     redis: "npm:^4.7.0"
     reflect-metadata: "npm:^0.2.2"
